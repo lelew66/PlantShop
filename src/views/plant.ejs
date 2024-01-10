@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-light bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#section1">
+                    Plant Shop
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="warpper"></div>
+    <div class="image-container">
+        <img src="/CSS/image/ad1.png" class="d-block w-100" alt="...">
+        <div class="button-overlay">
+            <a href="#section1" class="btn btn-success btns">Shopping Now</a>
+        </div>
+    </div>
+    <div>
+        <div class="banner-container">
+            <div class="container">
+                <div class="image-container">
+                    <img src="/CSS/image/shipping.png" alt="Your Image" width="50" height="50">
+                </div>
+                <div class="text-container">
+                    <h6>Free Shipping</h6>
+                    <p>Experience the joy of free shipping in Montreal for orders over $120.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="image-container">
+                    <img src="/CSS/image/card.png" alt="Your Image" width="50" height="50">
+                </div>
+                <div class="text-container">
+                    <h6>Safe Payment</h6>
+                    <p>Rest assured with our secure payment gateway—your information is in safe hands.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="image-container">
+                    <img src="/CSS/image/service.png" alt="Your Image" width="50" height="50">
+                </div>
+                <div class="text-container">
+                    <h6>Return Guarantee</h6>
+                    <p>30-Day Peace of Mind: Our Return Guarantee for Every Order</p>
+                </div>
+            </div>
+        </div>
+        <div class="title" id="section1">
+            <h3>Our Plants</h3>
+            <div class="underline">
+
+            </div>
+        </div>
+<!-- Plants section -->
+        <div class="procucts image-popup-container">
+            <div class="card card-margin center " style="width: 18rem;">
+                <div class="cards">
+                    <img src="/CSS/image/aloe.jpg" class="card-img-top cards-img" alt="Your Image"
+                        style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="cards-body">
+                        <div class="body-img-container">
+                            <img src="https://perenual.com/storage/species_image/721_aloe_harlana/thumbnail/5582077315_8d613454aa_b.jpg" class="body-img" alt="Your Image"
+                                style="width: 100%; height: 100px; object-fit: contain;">
+                        </div>
+                        <h6 class="cards-title"><%- plant721[2] %></h6>
+                        <p class="card-subtitle">Family:<%- plant721[4] %></p>
+                        <p class="cards-text">Planting Guide:<br /> Dimension: <%- plant721[7] %><br />Waterting: <%- plant721[14] %> <br />
+                            Sunlight : <%- plant721[20][0] %>, <%- plant721[20][1] %><br />Pruning Month : <%- plant721[21][0] %>,<%- plant721[21][1] %>,<%- plant721[21][2] %><br />
+                            Growth Rate: <%- plant721[27] %><br />flowers: <%- plant721[37] %><br />
+                            fruits: <%- plant721[41] %> </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-title"><%- plant721[1] %></p>
+                    <h6 class="card-text">Price $29.00</h6>
+                    <a href="#section2" class="btn btn-success btns">Conect Us</a>
+                </div>
+
+            </div>
+            <div class="card card-margin center " style="width: 18rem;">
+                <div class="cards">
+                    <img src="/CSS/image/AmazonianElephantEar.png" class="card-img-top cards-img" alt="Your Image"
+                        style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="cards-body">
+                        <div class="body-img-container">
+                            <img src="https://perenual.com/storage/species_image/711_alocasia_amazonica_polly/thumbnail/pexels-photo-12419491.jpg" class="body-img" alt="Your Image"
+                                style="width: 100%; height: 100px; object-fit: contain;">
+                        </div>
+                        <h6 class="cards-title"><%- plant711[2] %></h6>
+                        <p class="card-subtitle">Family:<%- plant711[4] %></p>
+                        <p class="cards-text">Planting Guide:<br /> Dimension: <%- plant711[7] %><br />Waterting: <%- plant711[14] %> <br />
+                            Sunlight : <%- plant711[20][0] %>, <%- plant711[20][1] %><br />Pruning Month : <%- plant711[21][0] %>,<%- plant711[21][1] %>,<%- plant711[21][2] %><br />
+                            Growth Rate: <%- plant711[27] %><br />flowers: <%- plant711[37] %><br />
+                            fruits: <%- plant711[41] %> </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-title"><%- plant711[1] %></p>
+                    <h6 class="card-text">Price $49.00</h6>
+                    <a href="#section2" class="btn btn-success btns">Conect Us</a>
+                </div>
+
+            </div>
+            <div class="card card-margin center " style="width: 18rem;">
+                <div class="cards">
+                    <img src="/CSS/image/deltaMaidenhairFernpng.png" class="card-img-top cards-img" alt="Your Image"
+                        style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="cards-body">
+                        <div class="body-img-container">
+                            <img src="https://perenual.com/storage/species_image/546_adiantum_raddianum/thumbnail/48134564587_c4562175cb_b.jpg" class="body-img" alt="Your Image"
+                                style="width: 100%; height: 100px; object-fit: contain;">
+                        </div>
+                        <h6 class="cards-title"><%- plant546[2] %></h6>
+                        <p class="card-subtitle">Family:<%- plant546[4] %></p>
+                        <p class="cards-text">Planting Guide:<br /> Dimension: <%- plant546[7] %><br />Waterting: <%- plant546[14] %> <br />
+                            Sunlight : <%- plant546[20][0] %>, <%- plant546[20][1] %><br />Pruning Month : <%- plant546[21][0] %>,<%- plant546[21][1] %>,<%- plant546[21][2] %><br />
+                            Growth Rate: <%- plant546[27] %><br />flowers: <%- plant546[37] %><br />
+                            fruits: <%- plant546[41] %> </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-title"><%- plant546[1] %></p>
+                    <h6 class="card-text">Price $29.00</h6>
+                    <a href="#section2" class="btn btn-success btns">Conect Us</a>
+                </div>
+
+            </div>
+            <div class="card card-margin center " style="width: 18rem;">
+                <div class="cards">
+                    <img src="/CSS/image/desertRose.png" class="card-img-top cards-img" alt="Your Image"
+                        style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="cards-body">
+                        <div class="body-img-container">
+                            <img src="https://perenual.com/storage/species_image/540_adenium_obesum/thumbnail/9244335137_6d662ed77c_b.jpg" class="body-img" alt="Your Image"
+                                style="width: 100%; height: 100px; object-fit: contain;">
+                        </div>
+                        <h6 class="cards-title"><%- plant540[2] %></h6>
+                        <p class="card-subtitle">Family:<%- plant540[4] %></p>
+                        <p class="cards-text">Planting Guide:<br /> Dimension: <%- plant540[7] %><br />Waterting: <%- plant540[14] %> <br />
+                            Sunlight : <%- plant540[20][0] %>, <%- plant540[20][1] %><br />Pruning Month : <%- plant540[21][0] %>,<%- plant540[21][1] %>,<%- plant540[21][2] %><br />
+                            Growth Rate: <%- plant540[27] %><br />flowers: <%- plant540[37] %><br />
+                            fruits: <%- plant540[41] %> </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-title"><%- plant540[1] %></p>
+                    <h6 class="card-text">Price $99.00</h6>
+                    <a href="#section2" class="btn btn-success btns">Conect Us</a>
+                </div>
+
+            </div>
+            <div class="card card-margin center " style="width: 18rem;">
+                <div class="cards">
+                    <img src="/CSS/image/lipstickPlant.png" class="card-img-top cards-img" alt="Your Image"
+                        style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="cards-body">
+                        <div class="body-img-container">
+                            <img src="https://perenual.com/storage/species_image/552_aeschynanthus_radicans/thumbnail/29949422675_2671589cdf_b.jpg" class="body-img" alt="Your Image"
+                                style="width: 100%; height: 100px; object-fit: contain;">
+                        </div>
+                        <h6 class="cards-title"><%- plant552[2] %></h6>
+                        <p class="card-subtitle">Family:<%- plant552[4] %></p>
+                        <p class="cards-text">Planting Guide:<br /> Dimension: <%- plant552[7] %><br />Waterting: <%- plant552[14] %> <br />
+                            Sunlight : <%- plant552[20][0] %>, <%- plant552[20][1] %><br />Pruning Month : <%- plant552[21][0] %>,<%- plant552[21][1] %>,<%- plant552[21][2] %><br />
+                            Growth Rate: <%- plant552[27] %><br />flowers: <%- plant552[37] %><br />
+                            fruits: <%- plant552[41] %> </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-title"><%- plant552[1] %></p>
+                    <h6 class="card-text">Price $39.00</h6>
+                    <a href="#section2" class="btn btn-success btns">Conect Us</a>
+                </div>
+
+            </div>
+
+            <div class="card card-margin center " style="width: 18rem;">
+                <div class="cards">
+                    <img src="/CSS/image/urnPlant.png" class="card-img-top cards-img" alt="Your Image"
+                        style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="cards-body">
+                        <div class="body-img-container">
+                            <img src="https://perenual.com/storage/species_image/549_aechmea_fasciata/thumbnail/51446529161_03b99a881f_b.jpg" class="body-img" alt="Your Image"
+                                style="width: 100%; height: 100px; object-fit: contain;">
+                        </div>
+                        <h6 class="cards-title"><%- plant549[2] %></h6>
+                        <p class="card-subtitle">Family:<%- plant549[4] %></p>
+                        <p class="cards-text">Planting Guide:<br /> Dimension: <%- plant549[7] %><br />Waterting: <%- plant549[14] %> <br />
+                            Sunlight : <%- plant549[20][0] %>, <%- plant549[20][1] %><br />Pruning Month : <%- plant549[21][0] %>,<%- plant549[21][1] %>,<%- plant549[21][2] %><br />
+                            Growth Rate: <%- plant549[27] %><br />flowers: <%- plant549[37] %><br />
+                            fruits: <%- plant549[41] %> </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-title"><%- plant549[1] %></p>
+                    <h6 class="card-text">Price $39.00</h6>
+                    <a href="#section2" class="btn btn-success btns">Conect Us</a>
+                </div>
+
+            </div>
+            <div class="card card-margin center " style="width: 18rem;">
+                <div class="cards">
+                    <img src="/CSS/image/PhilippineEvergreen.png" class="card-img-top cards-img" alt="Your Image"
+                        style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="cards-body">
+                        <div class="body-img-container">
+                            <img src="https://perenual.com/storage/species_image/625_aglaonema_commutatum/thumbnail/24798632751_3a039ecbc6_b.jpg" class="body-img" alt="Your Image"
+                                style="width: 100%; height: 100px; object-fit: contain;">
+                        </div>
+                        <h6 class="cards-title"><%- plant625[2] %></h6>
+                        <p class="card-subtitle">Family:<%- plant625[4] %></p>
+                        <p class="cards-text">Planting Guide:<br /> Dimension: <%- plant625[7] %><br />Waterting: <%- plant625[14] %> <br />
+                            Sunlight : <%- plant625[20][0] %>, <%- plant625[20][1] %><br />Pruning Month : <%- plant549[21][0] %>,<%- plant625[21][1] %>,<%- plant625[21][2] %><br />
+                            Growth Rate: <%- plant625[27] %><br />flowers: <%- plant625[37] %><br />
+                            fruits: <%- plant625[41] %> </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-title"><%- plant625[1] %></p>
+                    <h6 class="card-text">Price $29.00</h6>
+                    <a href="#section2" class="btn btn-success btns">Conect Us</a>
+                </div>
+
+            </div>
+
+            <div class="card card-margin center " style="width: 18rem;">
+                <div class="cards">
+                    <img src="/CSS/image/MaidenhairFern.png" class="card-img-top cards-img" alt="Your Image"
+                        style="width: 100%; height: 300px; object-fit: cover;">
+                    <div class="cards-body">
+                        <div class="body-img-container">
+                            <img src="https://perenual.com/storage/species_image/543_adiantum_capillus-veneris/thumbnail/49636882698_cb4fa4c685_b.jpg" class="body-img" alt="Your Image"
+                                style="width: 100%; height: 100px; object-fit: contain;">
+                        </div>
+                        <h6 class="cards-title"><%- plant543[2] %></h6>
+                        <p class="card-subtitle">Family:<%- plant543[4] %></p>
+                        <p class="cards-text">Planting Guide:<br /> Dimension: <%- plant543[7] %><br />Waterting: <%- plant543[14] %> <br />
+                            Sunlight : <%- plant543[20][0] %>, <%- plant543[20][1] %><br />Pruning Month : <%- plant543[21][0] %>,<%- plant543[21][1] %>,<%- plant543[21][2] %><br />
+                            Growth Rate: <%- plant543[27] %><br />flowers: <%- plant543[37] %><br />
+                            fruits: <%- plant543[41] %> </p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-title"><%- plant543[1] %></p>
+                    <h6 class="card-text">Price $39.00</h6>
+                    <a href="#section2" class="btn btn-success btns">Conect Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- gift section -->
+    <div class="service-container bg1">
+        <div class="img-container">
+            <img src="/CSS/image/p2.jpg" alt="Your Image" style="width: 200px; height: auto; object-fit: cover;">
+        </div>
+        <div class="text-containers ">
+            <span>Our Service</span>
+            <h3>Plants Gifts</h3>
+            <p>Crafting a gift that speaks to the soul of every plant lover, ensuring a heartfelt and significant
+                gesture!</p>
+        </div>
+    </div>
+
+    <div class="procucts image-popup-container ">
+        <div class="card card-margin" style="width: 26rem;">
+            <img src="/CSS/image/Gift_Certificate.png" class="card-img-top" alt="Your Image"
+                style="width: 100%; height: 300px; object-fit: cover;">
+            <div class="card-body">
+                <h6 class="card-title">Gift Voucher </h6>
+                <p class="card-text">Creating a gift voucher for your loved can be a wonderful idea. Feel free to
+                    customize the voucher </p>
+
+            </div>
+        </div>
+
+        <div class="card card-margin" style="width: 26rem;">
+            <img src="/CSS/image/giftbox.jpg" class="card-img-top" alt="Your Image"
+                style="width: 100%; height: 300px; object-fit: cover;">
+            <div class="card-body">
+                <h6 class="card-title">Customized Plant Pot</h6>
+                <p class="card-text">Personalized plant pots with the recipient's name or a special message.</p>
+
+            </div>
+        </div>
+        <div class="card card-margin" style="width: 26rem;">
+            <img src="/CSS/image/plantcarekit.webp" class="card-img-top" alt="Your Image"
+                style="width: 100%; height: 300px; object-fit: cover;">
+            <div class="card-body">
+                <h6 class="card-title">Plant Care Kit</h6>
+                <p class="card-text">A thoughtful package containing essential tools like pruning shears, watering can,
+                    and soil.</p>
+                <!-- <a href="#" class="btn btn-success">Go somewhere</a> -->
+            </div>
+        </div>
+        <div class="card card-margin " style="width: 26rem;">
+            <img src="/CSS/image/book.jpg" class="card-img-top" alt="Your Image"
+                style="width: auto; height: 300px; object-fit: cover;">
+            <div class="card-body">
+                <h6 class="card-title">Plant Identification Book</h6>
+                <p class="card-text">A guidebook to help plant enthusiasts identify and care for their green friends.
+                </p>
+
+            </div>
+        </div>
+        <div class="card card-margin " style="width: 26rem;">
+            <img src="/CSS/image/shrit.png" class="card-img-top" alt="Your Image"
+                style="width: 100%; height: 300px; object-fit: cover;">
+            <div class="card-body">
+                <h6 class="card-title">Plant-themed Apparel</h6>
+                <p class="card-text">T-shirts for fun plant-related designs.</p>
+
+            </div>
+        </div>
+
+
+        <div class="card card-margin" style="width: 26rem;">
+            <img src="/CSS/image/candle1.webp" class="card-img-top" alt="Your Image"
+                style="width: 100%; height: 300px; object-fit: cover;">
+            <div class="card-body">
+                <h6 class="card-title">Scented Candles</h6>
+                <p class="card-text">Plant-inspired candles with scents like lavender, eucalyptus, or citrus.</p>
+
+            </div>
+        </div>
+        <div class="card card-margin " style="width: 26rem;">
+            <img src="/CSS/image/giftCard .png" class="card-img-top" alt="Your Image"
+                style="width: auto; height: 300px; object-fit: cover;">
+            <div class="card-body">
+                <h6 class="card-title">Gift Card</h6>
+                <p class="card-text"> choose your favorite plants or gardening accessories with a gift card.</p>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- <div class="">
+    <img src="/CSS/image/image1.jpeg" alt="Your Image" style="width: 100%; height: 150px; object-fit: cover;">
+</div> -->
+
+    <div class="formconatiner" id="section2">
+        <form action="#" method="post">
+            <div class="title">
+                <h3>Contact Us</h3>
+            </div>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit btn btn-success btns">Submit</button>
+        </form>
+    </div>
+    </section>
+</body>
+<footer class="center bg">
+    <p>Copyright@PlantsShop</p>
+</footer>
+
+</html>
